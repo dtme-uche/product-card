@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Animated Product Card</title>
+</head>
+
+<body>
+    
+<div class="prod-card">
+    <div class="logo">
+        <img src="./assets/image/nike.png"
+            alt="logo">
+        <i class='bx bx-shopping-bag'></i>
+    </div>
+    <div class="prod-images">
+        <img id="blue" class="blue active"
+            src="./assets/image/sneakers.png"
+            alt="blue">
+        <img id="pink" class="pink"
+            src="./assets/image/white.png"
+            alt="blue">
+        <img id="yellowt" class="yellow uche"
+            src="./assets/image/sneakers22.png"
+            alt="blue">
+    </div>
+    <div class="shoe-details">
+        <span class="shoe_name"><b>Nike</b>  <span class="fear">Fear of God</span></span>
+        <p>Nike Fear of God Sneaker. 2018 Edition </p>
+        <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bx-star'></i>
+        </div>
+    </div>
+    <div class="color-price">
+        <div class="color-option">
+            <span class="color">Colour:</span>
+            <div class="circles">
+                <span class="circle blue active" id="blue"></span>
+                <span class="circle pink " id="pink"></span>
+                <span class="circle yellow " id="yellow"></span>
+            </div>
+        </div>
+        <div class="price">
+            <span class="price_num">$99.00</span>
+            <span class="price_letter">Ninety-Nine dollar</span>
+        </div>
+    </div>
+    <div class="button">
+        <div class="button-layer"></div>
+        <button>Add To Cart</button>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
